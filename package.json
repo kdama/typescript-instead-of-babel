@@ -1,0 +1,29 @@
+{
+  "name": "typescript-instead-of-babel",
+  "version": "1.0.0",
+  "description": "Use TypeScript as a JavaScript transpiler instead of Babel",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdama/typescript-instead-of-babel.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf ./dist",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "TypeScript", "transpiler"
+  ],
+  "author": "Kai Kodama <cai.codama@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kdama/typescript-instead-of-babel/issues"
+  },
+  "homepage": "https://github.com/kdama/typescript-instead-of-babel#readme",
+  "devDependencies": {
+    "typescript": "^2.3.4"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
